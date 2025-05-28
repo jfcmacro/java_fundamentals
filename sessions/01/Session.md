@@ -1,0 +1,253 @@
+# Object Oriented Design
+
+## Object Oriented Design
+
+
+## Object-Oriented Thinking
+
+* Object
+* Class
+* Abstraction
+* Encapsulation
+* Inheritance
+* Polymorphism
+* Association
+* Aggregation
+* Composition
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Interview Advice
+
+> Common questions: **What is ...?**
+
+> The correct answer are a combination of technical knowledge and real-world analogies or examples.
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Object
+
+* An object is one the core concepts of OOP.
+* An object is real-world entity.
+* An object has state (fields) and behaviours  (methods).
+* An object represent an instance of a class.
+* An object takes up some space in memory.
+* An object can communicate with other objects.
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Class
+
+* A class is one the core concepts of OOP.
+* A class is a template or a blueprint for creating objects.
+* A class doesn't consume memory.
+* A class can be instantiated multiple times.
+* A class does one, and only one thing.
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Abstraction
+
+* A class is one the core concepts of OOP.
+* Abstraction is the concept of exposing to the user only those things that are revelant to them and hinding the remainder of the details.
+* Abstraction allows the user to focus on what the application does instead of how it does it.
+* Abstraction is achieved in some languages via abstract classes and interfac
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Encapsulation
+
+  * Encapsulation is one the core concepts of OOP.
+  * Encapsulation is a technique whereby the object state is hidden from the outer world and a set of public methods for accessing this state are exposed.
+  * Encapsulation is achieved when each object keeps its state private, inside a class.
+  * Encapsulation is known as the **data-hiding** mecanism.
+  * Encapsulation has a number of important advantages associated with it, such as loosely coupled, reusable, secure and easy-to-test code.
+  * In Java (for instance) , encapsulation is implemented via the access modifiers . `private`, `public`, `protected`.
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Inheritance ##
+
+  * Inheritance is one the core concepts of OOP.
+  * Inheritance allows an object to be based on another object.
+  * Inheritance sustains code reusability by allowing an object to reuse the code of another object and add its own logic as well.
+  * Inheritance is know as an **IS-A** relationship, also referenced as a parent-child relationship.
+  * In Python, inheritance is achive via a list parameter in the class definition.
+  * The inherited object is referenced as the superclass, and the object that inherites the superclass is reference as the superclass.
+  * In Python, multiple inheritance is allowed.
+
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Polymorphism ##
+
+  * Polymorphism is one the core concepts of OOP.
+  * Polymorphism means *many forms* in Greek.
+  * Polymorphism allows an object to behave differently in certain cases.
+  * Polymorphism can be shaped via method overloading or via method overriding in the case of an IS-A relationship.
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Association ##
+
+  * Association is one the core concepts of OOP.
+  * Association defines the relation between two classes that are independent of another.
+  * Association has no owner.
+  * Association cab be one-to-one, one-to-many, many-to-one, and many-to-many.
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Aggregation ##
+
+  * Aggregation is one the core concepts of OOP.
+  * Aggregation is a special cases of unidirectional association.
+  * Aggregation represente a **HAS-A** relationship.
+  * Two aggregated objects have their own life cycle, but one of the objects is the owner of the HAS-A relationship.
+
+-------------------------------------------------------------------------------
+
+## Object-Oriented Thinking - Composition ##
+
+  * Composition is one the core concepts of OOP.
+  * Composition is a more restrictive case of aggregation.
+  * Composition represent a **HAS-A** relationship that contains an object that cannot exits on its own.
+  * Composition sustains code reuse and the visibility control of objects.
+
+---
+
+## Object-Oriented Thinking Project
+
+Select from the following options the system for which the class hierarchy will be developed.
+
+1. Table or Card Game simulations:
+   - Chess
+   - Checkers
+   - Narde
+   - Go
+   - ...
+2. Publicly available devices/services:
+   - a public printer/copier at a university
+   - a public coffee/vending machine at a
+   - university/dormitory/hospital/street
+   - a public phone booth on a street
+   - ...
+
+---
+
+## Object-Oriented Thinking Project (2)
+
+1. Scheduling/Management systems:
+   - Dormitory accommodation management
+   - Zoo animals' nutrition management
+   - Robotized warehouse management
+   - ...
+
+---
+
+## Object-Oriented Thinking Project (3)
+
+*Please read carefully and do the following:*
+
+1. Describe the requirements for the chosen system: functional and non-functional.
+2. Design use cases for the system based on the requirements.
+3. Identify objects, classes, and relationships in the system. Optionally, design CRC cards.
+4. Design class diagrams picturing classes, their attributes, and relations in the system.
+5. Optionally, convert diagrams into Java code.
+6. Send the following results: requirements, use cases, CRCs (optional), class diagrams, Java code of the classes.
+
+
+---
+
+## Design Patterns Task
+
+* Decorator
+* Factory
+* Iterator
+* Observer
+* Strategy
+
+---
+
+## Design Patterns Task - Decorator
+
+**Decorator** is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
+
+Implement [`com.epam.rd.autocode.decorator.Decorators`]() method:
+
+- `evenIndexElementsSubList` - returns a decorator, that manages only the elements with even indices in a source list. The decorated list should support the "read" methods: Decorated list should support "read" methods: `get()`, `size()`, `iterator()`.
+
+---
+
+## Design Patterns Task - Factory
+
+**Abstract Factory** is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+
+Implement [`com.epam.rd.autocode.factory.plot.PlotFactories`]() methods:
+
+- `classicDisneyPlotFactory` - returns a factory that creates a classic Disney plot (refer to test cases).
+- `contemporaryDisneyPlotFactory` - returns a factory that creates a contemporary Disney plot (refer to test cases).
+- `marvelPlotFactory` - returns a factory that creates a Marvel plot (refer to test cases).
+
+---
+
+## Design Patterns Task - Iterator
+
+**Iterator** is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation.
+
+Implement [`com.epam.rd.autocode.iterator.Iterators`]() methods:
+
+- `intArrayTwoTimesIterator` - returns an Iterator that iterates over given array but returns each array element 2 times.
+- `intArrayThreeTimesIterator` - returns an Iterator that iterates over given array but returns each array element 3 times.
+- `intArrayFiveTimesIterator` - returns an Iterator that iterates over given array but returns each array element 5 times.
+- `table` - returns an Iterator that iterates over cells - pairs of given columns and rows.
+
+---
+
+## Design Patterns Task - Observer
+
+**Observer** is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen with the object they’re observing.
+
+Implement [`com.epam.rd.autocode.observer.git.GitRepoObservers`]() methods:
+
+- `newRepository` - returns a Repository. It supports commits to various branches and merges between branches. Also, it supports WebHooks - observers that observes commit or merge events.
+- `mergeToBranchWebHook` - returns a WebHook that observes merge events for a target branch.
+- `commitToBranchWebHook` - returns a WebHook that observes commit events for a target branch.
+
+---
+
+## Design Patterns Task - Strategy
+
+**Strategy** is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+
+*CardDealingStrategy* is a strategy of dealing cards for a card game. Each game defines how many cards should be dealt to a player and what additional card stacks should be dealt as well.
+
+It's result of it is a Map containing named card stacks (as Lists). Each player's stack has a name on its number: "Player 1", "Player 2", an so on. Additional stacks varies from game to game. The rest of the card deck becomes a "Remaining" stack.
+
+Note that at first, cards are dealt to players, one per round and then cards are dealt to additional stacks and the remaining deck becomes a "Remaining" stack.
+
+Implement [`com.epam.rd.autocode.startegy.cards.CardDealingStrategies`]() methods:
+
+- `texasHoldemCardDealingStrategy` - returns a CardDealingStrategy for Texas Hold'em Poker. 2 cards per player, 5 cards in additional "Community" stack.
+- `classicPokerCardDealingStrategy` - returns a CardDealingStrategy for Classic Poker. 5 cards per player, no additional stacks.
+- `bridgeCardDealingStrategy` - returns a CardDealingStrategy for Bridge. 13 cards per player, no additional stacks.
+- `foolCardDealingStrategy` - returns a CardDealingStrategy for Fool. 6 cards per player, 1 card in additional "Trump card" stack.
+
+
+
+  - UML & Requirements
+  - Uses Cases
+  - CRC Cards
+  - Instantiating Classes
+  - Identifying Inheritance Situations
+  - OOP Support in Different Languages
+  - SOLID Design Essentials
+  - SOLID Design Principles
+  - Design Patterns Principles
+  - Interface Pattern
+  - Strategy Pattern
+  - Adapter Pattern
+  - Observer Pattern
+  - Decorator Pattern
+  - Iterator Pattern
+  - Factory Pattern
+  
