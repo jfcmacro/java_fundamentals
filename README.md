@@ -8,15 +8,15 @@
 * [Session 02](./sessions/02/Session.md) - Object Oriented Design(2)
 * [Session 03](./sessions/03/Session.md) - Maven Build Tools
 * [Session 04](./sessions/04/Session.md) - The Concept of Unit Test
-* Session 05 - JUnit Framework. TDD. Mock Objects
-* Session 06 - Log, JSON
-* Session 07 - Creation and Validation of XML Files, Timeline, LocalTime, and Zone Time (Java `java.util.time`)
+* [Session 05](./sessions/05/Session.md) - JUnit Framework. TDD. Mock Objects
+* [Session 06](./sessions/06/Session.md) - Log, JSON
+* [Session 07](./sessions/07/Session.md) - Creation and Validation of XML Files, Timeline, LocalTime, and Zone Time (Java `java.util.time`)
 
 ## Module 2 - Java Professional
 
 ### Sessions
 
-* Session 08 - Java Concurrency Essentials 
+* [Session 08](./session/08/Session.md) - Java Concurrency Essentials 
 * Session 09 - Java Concurrency Essentials(2) 
 * Session 10 - Java Concurrency Essentials(3)
 * Session 11 - JVM Memory Management
@@ -26,11 +26,11 @@
 
 ### Sessions
 
-* Session 13 - RDBS and SQL Essentials
+* [Session 13](./session/13/Session.md) - RDBS and SQL Essentials
 * Session 14 - JDBC Essentials and DAO Pattern
 * Session 15 - Web Basic
 * Session 16 - Servlet API and JSP
-* Session 17 - Summary
+* Session 17 - Servlet API and JSP(2)
 
 ## Module 4 - Java Web Development with Spring
 
