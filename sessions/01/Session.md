@@ -155,3 +155,72 @@ Select from the following options the system for which the class hierarchy will 
 5. Optionally, convert diagrams into Java code.
 6. Send the following results: requirements, use cases, CRCs (optional), class diagrams, Java code of the classes.
 
+---
+
+# SOLID
+
+---
+
+## SOLID
+
+  * S: Single Responsibility Principle
+  * O: Open Closed Principle
+  * L: Liskov's Substitution Principle
+  * I: Interface Segregation Principle
+  * D: Dependency Inversion Principle
+
+
+-------------------------------------------------------------------------------
+
+## SOLID - S: Single Responsibility Principle (SRP)
+
+  * S stands for the Single Responsibility Principle (SRP).
+  * S stands for One class should have one, and only one, responsibility.
+  * S tells us to write a class for only one goal.
+  * S sustains high maintainability and visibility control across the application modules.
+
+-------------------------------------------------------------------------------
+
+## SOLID - O: Open Closed Principle (OCP)
+
+  * O stands for the Open Closed Principle (OCP).
+  * O stands for Software components should be open for extension,
+    but closed for modification.
+  * O sustains the fact that our classes should not contain constraints
+    that will require other developers to modify our classes in order
+    to accomplish their job – other developers should only
+    extend our classes to accomplish their job.
+  * O sustains software extensibility in a versatile, intuitive, and
+    non-harmful way.
+
+-------------------------------------------------------------------------------
+
+## SOLID - L: Liskov's Substitution Principle (LSP)
+
+  * L stands for Liskov's Substitution Principle (LSP).
+  * L stands for Derived types must be completely substitutable
+    for their base types.
+  * L sustains the fact that objects of subclasses must behave
+    in the same way as the objects of superclasses.
+  * L is useful for runtime-type identification followed by the cast.
+
+-------------------------------------------------------------------------------
+
+## SOLID - I: Interface Segregation Principle (ISP)
+
+  * I stands for the Interface Segregation Principle (ISP).
+  * I stands for Clients should not be forced to implement unnecessary
+    methods that they will not use.
+  * I splits an interface into two or more interfaces until clients
+    are not forced to implement methods that they will not use.
+
+-------------------------------------------------------------------------------
+
+## SOLID - D: Dependency Inversion Principle (DIP)
+
+  * D stands for the Dependency Inversion Principle (DIP).
+  * D stands for Depend on abstractions, not on concretions.
+  * D sustains the use of abstract layers to bind concrete
+    modules together instead of having concrete modules that
+    depend on other concrete modules.
+  * D sustains the decoupling of concrete modules.

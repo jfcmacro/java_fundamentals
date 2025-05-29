@@ -4,10 +4,10 @@
 
 ### Sessions
 
-* Session 01 - Object Oriented Design
-* Session 02 - Object Oriented Design(2)
-* Session 03 - Maven Build Tools
-* Session 04 - The Concept of Unit Test
+* [Session 01](./sessions/01/Session.md) - Object Oriented Design
+* [Session 02](./sessions/02/Session.md) - Object Oriented Design(2)
+* [Session 03](./sessions/03/Session.md) - Maven Build Tools
+* [Session 04](./sessions/04/Session.md) - The Concept of Unit Test
 * Session 05 - JUnit Framework. TDD. Mock Objects
 * Session 06 - Log, JSON
 * Session 07 - Creation and Validation of XML Files, Timeline, LocalTime, and Zone Time (Java `java.util.time`)
